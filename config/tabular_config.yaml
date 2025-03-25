@@ -1,0 +1,159 @@
+arrhythmia:
+  epochs: 100
+  norm: minmax
+  hidden_dim: 128
+  patch_size: 1
+  overlap: 0
+  batch_size: 64
+
+breastw:
+  epochs: 100
+  norm: none
+  hidden_dim: 128
+  patch_size: 1
+  overlap: 0
+  batch_size: 64
+
+cardio:
+  epochs: 100
+  norm: none
+  hidden_dim: 128
+  patch_size: 1
+  overlap: 0
+  batch_size: 128
+
+census:
+  epochs: 100
+  norm: none
+  hidden_dim: 128
+  patch_size: 1
+  overlap: 0
+  batch_size: 2048
+
+campaign:
+  epochs: 100
+  norm: std
+  hidden_dim: 128
+  patch_size: 1
+  overlap: 0
+  batch_size: 2048
+
+cardiotocography:
+  epochs: 100
+  norm: minmax
+  hidden_dim: 128
+  patch_size: 1
+  overlap: 0
+  batch_size: 128
+
+fraud:
+  epochs: 200
+  norm: std
+  hidden_dim: 512
+  patch_size: 15
+  overlap: 8
+  batch_size: 2048
+
+glass:
+  epochs: 100
+  norm: minmax
+  hidden_dim: 128
+  patch_size: 1
+  overlap: 0
+  batch_size: 64
+
+ionosphere:
+  epochs: 200
+  norm: std
+  hidden_dim: 512
+  patch_size: 17
+  overlap: 9
+  batch_size: 64
+
+mammography:
+  epochs: 100
+  norm: none
+  hidden_dim: 128
+  patch_size: 1
+  overlap: 0
+  batch_size: 2048
+
+nslkdd:
+  epochs: 100
+  norm: std
+  hidden_dim: 128
+  patch_size: 1
+  overlap: 0
+  batch_size: 2048
+
+optdigits:
+  epochs: 200
+  norm: std
+  hidden_dim: 512
+  patch_size: 32
+  overlap: 16
+  batch_size: 128
+
+pima:
+  epochs: 100
+  norm: none
+  hidden_dim: 128
+  patch_size: 1
+  overlap: 0
+  batch_size: 128
+
+pendigits:
+  epochs: 200
+  norm: none
+  hidden_dim: 512
+  patch_size: 8
+  overlap: 4
+  batch_size: 128
+
+satellite:
+  epochs: 200
+  norm: std
+  hidden_dim: 512
+  patch_size: 18
+  overlap: 9
+  batch_size: 512
+
+satimage:
+  epochs: 200
+  norm: none
+  hidden_dim: 512
+  patch_size: 18
+  overlap: 9
+  batch_size: 512
+
+shuttle:
+  epochs: 200
+  norm: std
+  hidden_dim: 512
+  patch_size: 5
+  overlap: 3
+  batch_size: 2048
+
+thyroid:
+  epochs: 100
+  norm: minmax
+  hidden_dim: 128
+  patch_size: 1
+  overlap: 0
+  batch_size: 512
+
+wbc:
+  epochs: 100
+  norm: none
+  hidden_dim: 128
+  patch_size: 1
+  overlap: 0
+  batch_size: 64
+
+wine:
+  epochs: 100
+  norm: none
+  hidden_dim: 128
+  patch_size: 1
+  overlap: 0
+  batch_size: 64
